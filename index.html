@@ -11,14 +11,12 @@
     <title>instagram feed</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <i class="fab fa-instagram"></i>
-  <a class="navbar-brand" href="#"><i>Instagram</i></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <!-- Button trigger modal -->
+      <nav class="navbar navbar-light bg-light">
+
+  <a class="navbar-brand"><i class="fab fa-instagram"></i><i><strong>Instagram</strong></i></a>
+  <form class="form-inline">
+   <!-- Button trigger modal -->
 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
   Create a new post
 </button>
@@ -29,25 +27,24 @@
     <div class="modal-content">
       <div class="modal-header">
 
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+
       </div>
       <div class="modal-body">
 
       </div>
+      <button type="button" class="btn2 btn-light border-dark"><i class="fas fa-camera"></i></button>
+      <button type="button" class="btn2 btn-light border-dark"><i class="fas fa-map-marker-alt"></i></i></button>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-primary">Publish</button>
+        <button type="button" class="btn btn-clear" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-success">Publish</button>
       </div>
     </div>
   </div>
 </div>
 
 
-<!-- Example single danger button -->
 <div class="btn-group">
-  <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button type="button" class="btn btn-clear dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <i class="fas fa-cog"></i>
   </button>
   <div class="dropdown-menu">
@@ -58,105 +55,92 @@
     <a class="dropdown-item" href="#">Log Out</a>
   </div>
 </div>
-      </nav>
-
-    <div class="container">
-
-
-
-        <nav>
-  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-th"></i></a>
-    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-stop"></i></a>
 </nav>
-<div class="tab-content" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"><div class="row">
-            <div class="col-4">
-                <div class="background-images" style="background-image: url(https://lorempixel.com/125/125/abstract/1/cc)"></div>
-            </div>
-            <div class="col-4">
-                <div class="background-images" style="background-image: url(https://lorempixel.com/125/125/abstract/2/cc)"></div>
-            </div>
-            <div class="col-4">
-                <div class="background-images" style="background-image: url(https://lorempixel.com/125/125/abstract/3/cc)"></div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-4">
-                <div class="background-images" style="background-image: url(https://lorempixel.com/125/125/abstract/5/cc)"></div>
-            </div>
-            <div class="col-4">
-                <div class="background-images" style="background-image: url(https://lorempixel.com/125/125/abstract/4/cc)"></div>
-            </div>
-            <div class="col-4">
-                <div class="background-images" style="background-image: url(https://lorempixel.com/125/125/abstract/6/cc)"></div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-4">
-                <div class="background-images" style="background-image: url(https://lorempixel.com/125/125/abstract/7/cc)"></div>
-            </div>
-            <div class="col-4">
-                <div class="background-images" style="background-image: url(https://lorempixel.com/125/125/abstract/10/cc)"></div>
-            </div>
-            <div class="col-4">
-                <div class="background-images" style="background-image: url(https://lorempixel.com/125/125/abstract/9/cc)"></div>
-            </div>
-        </div></div>
-  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 
 
-<div class="container">
-    <div class="row">
-        <div class="col-6" "mx-auto">
+
+<ul class="nav nav-pills mt-3 mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-square"></i></a>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+<div class="row">
+    <div class="col-4" style="background-image: url(http://lorempixel.com/400/200); height: 200px; width: 450px;">
+    </div>
+    <div class="col-4" style="background-image: url(http://lorempixel.com/400/200/sports/1); height: 200px; width: 450px;">
+
+    </div>
+    <div class="col-4" style="background-image: url(http://lorempixel.com/400/200/sports); height: 200px; width: 450px;">
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4" style="background-image: url(http://lorempixel.com/400/200/sports/1); height: 200px; width: 450px;">
+
+    </div>
+    <div class="col-4" style="background-image: url(http://lorempixel.com/g/400/200); height: 200px; width: 450px;">
+
+    </div>
+    <div class="col-4" style="background-image: url(http://lorempixel.com/400/200/sports/1); height: 200px; width: 450px;">
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-4" style="background-image: url(http://lorempixel.com/g/400/200); height: 200px; width: 450px;">
+
+    </div>
+    <div class="col-4" style="background-image: url(http://lorempixel.com/400/200/sports); height: 200px; width: 450px;">
+
+    </div>
+    <div class="col-4" style="background-image: url(http://lorempixel.com/400/200); height: 200px; width: 450px;">
+
+    </div>
+  </div>
 
 
-<div class="post">
-                    <div class="header"><span><b>My firt photo</b></span></div>
+
+
+
+
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><div class="post">
+                    <div class="post-header"><span><b>My firt photo</b></span></div>
                     <div class="numbers"><span>12/14</span></div>
                     <div class="photos"><img src="http://lorempixel.com/400/200"></div>
                     <div class="footer"><span>This is my first photo of the feed. this is a multi line comment for testing purpose. I am learning to code with <b>#BreatheCode</b></span></div>
                 </div>
                 <br>
                 <div class="post">
-                    <div class="header"><span><b>Some cute thing</b></span></div>
+                    <div class="post-header"><span><b>Some cute thing</b></span></div>
                     <div class="numbers"><span>12/17</span></div>
                     <div class="photos"><img src="http://lorempixel.com/g/400/200"></div>
                     <div class="footer"><span>The internet approves this cute dog...<b>#BreatheCode</b></span></div>
                 </div>
                 <br>
                 <div class="post">
-                    <div class="header"><span><b>There's a paparazzi around</b></span></div>
+                    <div class="post-header"><span><b>There's a paparazzi around</b></span></div>
                     <div class="numbers"><span>12/17</span></div>
                     <div class="photos"><img src="http://lorempixel.com/400/200/sports"></div>
                     <div class="footer"><span>This is me waiting for the screen to show my awesome first website made at <b>#BreatheCode</b></span></div>
                 </div>
                 <br>
                 <div class="post">
-                    <div class="header"><span><b>And of course...food!</b></span></div>
+                    <div class="post-header"><span><b>And of course...food!</b></span></div>
                     <div class="numbers"><span>12/17</span></div>
                     <div class="photos"><img src="http://lorempixel.com/400/200/sports/1"></div>
                     <div class="footer"><span>Because no photo feed is cool without some food on it! <b>#BreatheCode</b></span></div>
                 </div>
-
-
-
-
-        </div>
-    </div>
+                <br></div>
 </div>
 
-
-  </div>
-</div>
-
-
-
-
-
-    </div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
